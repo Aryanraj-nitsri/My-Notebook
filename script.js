@@ -3,6 +3,7 @@ const textarea = document.querySelector("#floatingTextarea2");
 const add = document.querySelector("#notes");
 let int = 1;
 form.addEventListener("submit", (e) => {
+    e.preventDefault();
     const value = textarea.value
     const newcard = document.createElement("div")
     newcard.classList.add("card", "mx-3", "my-3", "newcard")
