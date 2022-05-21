@@ -1,7 +1,7 @@
 const form = document.querySelector("#box");
 const textarea = document.querySelector("#floatingTextarea2");
 const add = document.querySelector("#notes");
-let int = 1;
+let int = 0;
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     const value = textarea.value
